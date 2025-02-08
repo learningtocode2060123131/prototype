@@ -1,0 +1,78 @@
+.title{
+  text-align: center;
+}
+
+.body{
+  background:url('NEUMORPHIC_CIRCLES_BACKGROUND.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title{
+  color: white;
+  font-family:monospace
+
+}
+
+.main_body{
+  margin: auto;
+  padding: 10px 10px;
+  width: 50%;
+  height: 400px;
+  background-color: rgba(0,0,0,0.2);
+
+}
+
+.title_questions{
+  margin-top:-10px; ;
+  color: white;
+ text-align: center;
+}
+hr{
+  margin-top: -10px;
+  height: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.text_input{
+  display: flex;
+  width: 160px;
+  height: 20px;
+  margin-right: auto;
+  background-color: rgb(5, 2, 11) ;
+  border-radius: 10px;
+  border-color: rgb(0, 0, 0);
+  color: white;
+  margin-bottom: 10px;
+}
+.text_input::placeholder{
+  padding: 5px;
+  color: rgb(255, 255, 255);
+}
+.questions{
+  text-decoration: underline;
+  color: white;
+
+}
+.subdiv2{
+  margin-top: -280px; 
+  margin-left: 40%;;
+}
+.question2{
+  color: white;
+  text-decoration: underline;
+}
+.submit-button{
+  margin:  20px auto;
+  display: flex;
+  background-color: rgb(4, 6, 24);
+  border-radius: 25px;
+  border-width: 3px;;
+  font-size: 15px;
+  color: white;
+
+}
+
+.submit-button:hover{
+  background-color: rgb(77, 77, 77);
+}
